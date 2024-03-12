@@ -11,9 +11,9 @@ export default function (theme: Theme = {}) {
     header: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      paddingLeft: 10,
-      paddingRight: 10,
-      marginTop: 6,
+      paddingLeft: 0,
+      paddingRight: 0,
+      marginTop: 0,
       alignItems: 'center',
     },
     partialHeader: {
