@@ -5,7 +5,7 @@ const DEFAULT_TEXT_COLOR = 'white';
 const SECONDARY_TEXT_COLOR = '#00BBF2';
 const AGENDA_TEXT_COLOR = '#7a92a5';
 const AGENDA_BG_COLOR = '#f2F4f5';
-const DISABLED_COLOR = '#777777;
+const DISABLED_COLOR = '#777777';
 
 
 export const textDayFontFamily = 'Inter_500Medium';
@@ -29,7 +29,7 @@ export const arrowStyle = undefined;
 
 export const calendarBackground = FOREGROUND_COLOR;
 
-export const textSectionTitleColor = '#b6c1cd';
+export const textSectionTitleColor = '#777777';
 export const textSectionTitleDisabledColor = DISABLED_COLOR;
 export const selectedDayBackgroundColor = 'transparent';
 export const selectedDayTextColor = '#FFC93F';
