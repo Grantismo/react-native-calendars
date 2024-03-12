@@ -1,17 +1,17 @@
 // default values for app style (see all options for theme type in types.ts)
 
 const FOREGROUND_COLOR = 'white';
-const DEFAULT_TEXT_COLOR = '#2d4150';
+const DEFAULT_TEXT_COLOR = 'white';
 const SECONDARY_TEXT_COLOR = '#00BBF2';
 const AGENDA_TEXT_COLOR = '#7a92a5';
 const AGENDA_BG_COLOR = '#f2F4f5';
-const DISABLED_COLOR = '#d9e1e8';
+const DISABLED_COLOR = '#777777;
 
 
-export const textDayFontFamily = 'System';
-export const textMonthFontFamily = 'System';
-export const textDayHeaderFontFamily = 'System';
-export const todayButtonFontFamily = 'System';
+export const textDayFontFamily = 'Inter_500Medium';
+export const textMonthFontFamily = 'Inter_500Medium';
+export const textDayHeaderFontFamily = 'Inter_500Medium';
+export const todayButtonFontFamily = 'Inter_500Medium';
 
 export const textDayFontWeight = '300';
 export const textMonthFontWeight = '300';
@@ -31,8 +31,8 @@ export const calendarBackground = FOREGROUND_COLOR;
 
 export const textSectionTitleColor = '#b6c1cd';
 export const textSectionTitleDisabledColor = DISABLED_COLOR;
-export const selectedDayBackgroundColor = SECONDARY_TEXT_COLOR;
-export const selectedDayTextColor = FOREGROUND_COLOR;
+export const selectedDayBackgroundColor = 'transparent';
+export const selectedDayTextColor = '#FFC93F';
 export const todayBackgroundColor = undefined;
 export const todayTextColor = SECONDARY_TEXT_COLOR;
 export const dayTextColor = DEFAULT_TEXT_COLOR;
@@ -45,7 +45,7 @@ export const inactiveDotColor = undefined;
 export const todayDotColor = undefined;
 export const arrowColor = SECONDARY_TEXT_COLOR;
 export const disabledArrowColor = DISABLED_COLOR;
-export const monthTextColor = DEFAULT_TEXT_COLOR;
+export const monthTextColor = DISABLED_COLOR;
 export const indicatorColor = undefined; // use the default color of React Native ActivityIndicator
 export const agendaDayTextColor = AGENDA_TEXT_COLOR;
 export const agendaDayNumColor = AGENDA_TEXT_COLOR;
